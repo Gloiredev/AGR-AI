@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sidebar JVLTIC</title>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+
+  /* Bouton hamburger */
+  .menu-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+  }
+
+  .menu-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.6);
+  }
+
+  .hamburger {
+    position: relative;
+    transition: 0.3s;
+  }
+
+  .hamburger::before,
+  .hamburger::after {
+    content: '';
+    left: auto;
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: rgb(150, 77, 77);
+    transition: 0.5s;
+  }
+
+  .hamburger::before { top: -7px; }
+  .hamburger::after { top: 7px; }
+
+  .menu-btn.active .hamburger {
+    background: transparent;
+  }
+
+  .menu-btn.active .hamburger::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+  .menu-btn.active .hamburger::after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    left: -280px;
+    top: 0;
+    width: 280px;
+    height: 100vh;
+    background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+    border-right: 1px solid #334155;
+    transition: left 0.4s cubic-bezier(0.4, 0, 0.2, 2);
+    z-index: 999;
+    padding-top: 80px;
+    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 25px;
+    margin: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #94a3b8;
+    text-decoration: none;
+  }
+
+  .nav-item:hover {
+    background: rgba(99, 102, 241, 0.1);
+    color: #6366f1;
+    transform: translateX(5px);
+  }
+
+  .nav-item.active {
+    background: linear-gradient(90deg, rgba(99, 102, 241, 0.2), transparent);
+    color: #6366f1;
+    border-left: 3px solid #6366f1;
+  }
+
+  .nav-icon {
+    font-size: 20px;
+  }
+
+  /* Overlay */
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 998;
+  }
+
+  .overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Contenu */
+  .main {
+    padding: 80px 30px 30px;
+    transition: margin-left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @media (min-width: 768px) {
+    .sidebar {
+      left: 0;
+    }
+    .main {
+      margin-left: 280px;
+    }
+    .menu-btn {
+      display: none;
+    }
+    .overlay {
+      display: none;
+    }
+  }
+</style>
+</head>
+<body>
+
+<button class="menu-btn" id="menuBtn">
+  <span class="hamburger"></span>
+</button>
+
+<div class="sidebar" id="sidebar">
+  <div class="logo">JVLTIC</div>
+ 
+  <a href="#" class="nav-item active">
+    <span class="nav-icon">🏠</span>
+    <span>Accueil</span>
+  </a>
+ 
+  <a href="#" class="nav-item">
+    <span class="nav-icon">💬</span>
+    <span>Messages</span>
+  </a>
+ 
+  <a href="#" class="nav-item">
+    <span class="nav-icon">📊</span>
+    <span>Dashboard</span>
+  </a>
+ 
+  <a href="#" class="nav-item">
+    <span class="nav-icon">⚙️</span>
+    <span>Paramètres</span>
+  </a>
+</div>
+
+<div class="overlay" id="overlay"></div>
+
+<main class="main">
+  <h1>Salut la team JVLTIC 👋</h1>
+  <p style="margin-top: 15px; color: #94a3b8;">
+    Sidebar rétractable, gradient smooth, animation au clic.
+    Sur mobile elle se cache, sur desktop elle reste ouverte.
+  </p>
+</main>
+
+<script>
+  const menuBtn = document.getElementById('menuBtn');
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('overlay');
+  const navItems = document.querySelectorAll('.nav-item');
+
+  function toggleSidebar() {
+    menuBtn.classList.toggle('active');
+    sidebar.classList.toggle('active');
+    overlay.classList.toggle('active');
+  }
+
+  menuBtn.addEventListener('click', toggleSidebar);
+  overlay.addEventListener('click', toggleSidebar);
+
+  // Active l'item cliqué
+  navItems.forEach(item => {
+    item.addEventListener('click', function(e) {
+      e.preventDefault();
+      navItems.forEach(i => i.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+
+  // Ferme auto sur mobile après clic
+  if (window.innerWidth < 768) {
+    navItems.forEach(item => {
+      item.addEventListener('click', () => {
+        setTimeout(toggleSidebar, 200);
+      });
+    });
+  }
+</script>
+
+</body>
+</html>

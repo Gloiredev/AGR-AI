@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <title>AGR OS</title>
+
+    <style>
+      /* =============================
+   GLOBAL STYLE
+============================= */
+
+      body {
+        margin: 0;
+        font-family: Segoe UI;
+        overflow: hidden;
+        color: white;
+        background: black;
+      }
+
+      /* WORLD BACKGROUND */
+
+      #world {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        background-size: cover;
+        background-position: center;
+        transition: 2s ease;
+      }
+
+      /* =============================
+   HEADER
+============================= */
+
+      .header {
+        position: absolute;
+        top: 20px;
+        left: 40px;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
+
+      /* =============================
+   HUB (eFootball Menu)
+============================= */
+
+      .hub {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+        z-index: -1;
+      }
+
+      /* CARDS */
+
+      .card {
+        width: 180px;
+        height: 180px;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(20px);
+        border-radius: 30px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 42px;
+        cursor: pointer;
+        transition: 0.4s;
+
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+      }
+
+      .card h3 {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      /* HOVER CONSOLE EFFECT */
+
+      .card:hover {
+        transform: scale(1.15);
+        box-shadow:
+          0 0 40px #00d4ff,
+          0 0 80px #00ff9d;
+      }
+
+      /* FLOAT ANIMATION */
+
+      @keyframes float {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      .card {
+        animation: float 6s ease-in-out infinite;
+      }
+
+      /* =============================
+   SCREEN MODE
+============================= */
+
+      #screen {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        background: rgba(0, 0, 0, 0.75);
+        backdrop-filter: blur(20px);
+        padding: 40px;
+        overflow: auto;
+      }
+
+      .backBtn {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="world"></div>
+
+    <div class="header">⚡ AGR OS</div>
+
+    <!-- HUB MENU -->
+    <div class="hub" id="hub">
+      <div class="card" onclick="openMode('discuss')">
+        💬
+        <h3>Discuss</h3>
+      </div>
+
+      <div class="card" onclick="openMode('library')">
+        📚
+        <h3>Library</h3>
+      </div>
+
+      <div class="card" onclick="openMode('tools')">
+        🧠
+        <h3>AI Tools</h3>
+      </div>
+
+      <div class="card" onclick="openMode('terminal')">
+        ⌨️
+        <h3>Terminal</h3>
+      </div>
+
+      <div class="card" onclick="openMode('settings')">
+        ⚙️
+        <h3>Settings</h3>
+      </div>
+    </div>
+
+    <!-- MODE SCREEN -->
+    <div id="screen">
+      <div class="backBtn" onclick="closeMode()">⬅ Retour</div>
+
+      <div id="screenContent"></div>
+    </div>
+
+    <script>
+      /* =============================
+   WORLD ENGINE
+============================= */
+
+      const world = document.getElementById("world");
+
+      function updateWorld() {
+        const h = new Date().getHours();
+
+        if (h >= 6 && h < 12)
+          world.style.backgroundImage = "url('static/morning.jpg')";
+        else if (h >= 12 && h < 18)
+          world.style.backgroundImage = "url('static/day.png')";
+        else if (h >= 18 && h < 21)
+          world.style.backgroundImage = "url('static/evening.jpg')";
+        else world.style.backgroundImage = "url('static/night.jpg')";
+      }
+
+      updateWorld();
+      setInterval(updateWorld, 60000);
+
+      /* =============================
+   MODE SYSTEM
+============================= */
+
+      const hub = document.getElementById("hub");
+      const screen = document.getElementById("screen");
+      const content = document.getElementById("screenContent");
+
+      function openMode(mode) {
+        hub.style.display = "none";
+        screen.style.display = "block";
+
+        if (mode === "discuss") {
+          content.innerHTML = `
+<h1>💬 Discuss Mode</h1>
+<input id="msg" placeholder="Parlez à AGR..."
+style="width:60%;padding:10px;position: absolute;">
+<button onclick="sendMsg()">Envoyer</button>
+<div id="chat"></div>
+`;
+        }
+
+        if (mode === "library") {
+          content.innerHTML = "<h1>📚 Library Database</h1>";
+        }
+
+        if (mode === "tools") {
+          content.innerHTML = "<h1>🧠 AI Tools Active</h1>";
+        }
+
+        if (mode === "terminal") {
+          content.innerHTML = `
+<h1>⌨️ AGR TERMINAL</h1>
+<input id="cmd" placeholder="commande..."
+style="width:60%;padding:10px;"
+onkeydown="if(event.key==='Enter')runCmd()">
+<pre id="terminal"></pre>
+`;
+        }
+
+        if (mode === "settings") {
+          content.innerHTML = "<h1>⚙ Settings Panel</h1>";
+        }
+      }
+
+      function closeMode() {
+        screen.style.display = "none";
+        hub.style.display = "flex";
+      }
+
+      /* =============================
+   DISCUSS SERVER
+============================= */
+
+      function sendMsg() {
+        const input = document.getElementById("msg");
+        const chat = document.getElementById("chat");
+
+        fetch("/AGR", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: input.value }),
+        })
+          .then((r) => r.json())
+          .then((d) => {
+            chat.innerHTML += `<p><b>AGR:</b> ${d.reply}</p>`;
+          });
+      }
+
+      /* =============================
+   TERMINAL
+============================= */
+
+      function runCmd() {
+        const cmd = document.getElementById("cmd").value;
+        const term = document.getElementById("terminal");
+
+        fetch("/terminal", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ command: cmd }),
+        })
+          .then((r) => r.json())
+          .then((d) => {
+            term.textContent += `\n> ${cmd}\n${d.output}`;
+          });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruphy | Scientific_library & Coding Hub</title>
+    <style>
+        /* --- SYSTÈME DE DESIGN RUPHY ULTRA-PRO --- */
+        :root {
+            --bg: #030712;
+            --surface: #0f172a;
+            --accent-blue: #00d4ff;
+            --accent-green: #00ff9d;
+            --accent-orange: #f8981d;
+            --accent-red: #e34f26;
+            --glass: rgba(15, 23, 42, 0.9);
+            --border: rgba(255, 255, 255, 0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: var(--bg);
+            color: #f1f5f9;
+            font-family: 'Fira Code', 'JetBrains Mono', monospace;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* --- NAVIGATION --- */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 5%;
+            background: var(--glass);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .brand { font-size: 2rem; font-weight: 800; letter-spacing: -2px; }
+        .brand span { color: var(--accent-blue); text-shadow: 0 0 10px rgba(0, 212, 255, 0.5); }
+
+        /* --- BIBLIOTHÈQUE SCIENTIFIQUE (DROPDOWN) --- */
+        .dropdown { position: relative; }
+        .dropbtn {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid var(--accent-blue);
+            color: var(--accent-blue);
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+            text-transform: uppercase;
+            font-family: inherit;
+        }
+        .dropbtn:hover { background: var(--accent-blue); color: #000; box-shadow: 0 0 25px var(--accent-blue); }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            top: 110%;
+            background: #0f172a;
+            min-width: 320px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+            overflow: hidden;
+        }
+        .dropdown-content a {
+            color: #94a3b8;
+            padding: 15px 20px;
+            text-decoration: none;
+            display: block;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.9rem;
+        }
+        .dropdown-content a:hover { background: rgba(0, 212, 255, 0.05); color: var(--accent-green); }
+        .dropdown:hover .dropdown-content { display: block; }
+
+        /* --- HERO SECTION --- */
+        .hero { text-align: center; padding: 80px 20px; background: radial-gradient(circle at center, #1e293b 0%, #030712 100%); }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 1rem; letter-spacing: -1px; }
+        .hero p { color: var(--accent-green); font-size: 1.1rem; opacity: 0.9; }
+
+        /* --- GRILLE DE COURS --- */
+        .grid-container { max-width: 1300px; margin: 0 auto 100px; padding: 0 20px; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        /* --- CARTES PRO --- */
+        .card {
+            background: #0f172a;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 30px;
+            position: relative;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card:hover {
+            transform: translateY(-12px);
+            border-color: var(--card-color, var(--accent-blue));
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        .tag { font-size: 0.7rem; font-weight: 800; padding: 4px 10px; border-radius: 4px; display: inline-block; margin-bottom: 1rem; }
+        .code-snippet { background: #010409; padding: 12px; border-radius: 6px; font-size: 0.8rem; margin: 15px 0; color: #8b949e; border-left: 3px solid var(--card-color); }
+        .card h3 { font-size: 1.5rem; margin-bottom: 10px; }
+        .card p { color: #94a3b8; font-size: 0.95rem; }
+
+        .footer { margin-top: 25px; display: flex; justify-content: space-between; align-items: center; }
+        .btn-run {
+            background: var(--card-color);
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 800;
+            cursor: pointer;
+            font-family: inherit;
+            transition: 0.2s;
+        }
+        .btn-run:hover { filter: brightness(1.2); transform: scale(1.05); }
+
+        /* --- VARIANTES DE COULEURS PAR LANGAGE --- */
+        .python { --card-color: var(--accent-blue); }
+        .cpp { --card-color: #00599c; }
+        .java { --card-color: var(--accent-orange); }
+        .html { --card-color: var(--accent-red); }
+
+        .tag-py { background: rgba(0, 212, 255, 0.1); color: var(--accent-blue); }
+        .tag-cpp { background: rgba(0, 89, 156, 0.1); color: #6495ed; }
+        .tag-java { background: rgba(248, 152, 29, 0.1); color: var(--accent-orange); }
+        .tag-html { background: rgba(227, 79, 38, 0.1); color: var(--accent-red); }
+        .card-cpp a{text-decoration: none;}
+        .grid-container a{
+            text-decoration: none;
+            color: #030712;
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="brand">RU<span>PHY</span></div>
+        
+        <div class="dropdown">
+            <button class="dropbtn">/SCIENTIFIC_LIBRARY</button>
+            <div class="dropdown-content">
+                <a href="books/livre physique.pdf"># DATABASE_01: Physique_Atomique.pdf</a>
+                <a href="books/livre math.pdf"># DATABASE_02:Math général.pdf</a>
+                <a href="#"># DATABASE_03:Sympy_code.py</a>
+                <a href="books/livre chimie.pdf"># DATABASE_04:Chimie_2d.pdf</a>
+                <a href="books/micro.pdf">#DATABASE_05:Microbiologie.pdf</a>
+                <a href="books/livre biologie moleculaire.pdf">#DATABASE_06:Biologie_moleculaire.pdf</a>
+                <a href="books/biologie animale.pdf">#DATABASE_07:Biologie_animale.pdf</a>
+                <a href="logo_future.jpg">#DATABASE_08:Picture_ruphy.jpg</a>
+                <a href="NODE2.pdf">#DATABASE_09:node.js(terminal)</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Scientific Hub for Programmers</h1>
+        <p>>_ Loading expertise_modules... SUCCESS</p>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid">
+            
+            <!-- PYTHON -->
+            <div class="card python">
+                <div>
+                    <span class="tag tag-py">SCIENTIFIC COMPUTING</span>
+                    <h3>Python Core</h3>
+                    <div class="code-snippet">import sympy as sp<br>print(sp.solve(eq))</div>
+                    <p>Calcul formel, traitement de données physiques et intelligence artificielle.</p>
+                </div>
+                <div class="footer">
+                    <span style="color:var(--accent-blue); font-size:0.7rem;">KERNEL: v3.12</span>
+                    <button class="btn-run" onclick="speak('Initialisation du noyau Python')"><a href="books/apprendre_python3_5.pdf">Run()</a></button>
+                </div>
+            </div>
+            <div class="dropdown-content">
+    <a href="books/livre chimie.pdf" onclick="ouvrirLivre('Chimie Physique', 'La chimie physique étudie les bases physiques des systèmes chimiques...')">🧪 Chimie Physique</a>
+    <a href="books/apprendre_python3_5.pdf" onclick="ouvrirLivre('Astrophysique', 'L\'astrophysique est la branche de l\'astronomie qui...')">⚛️ Astrophysique</a>
+</div>
+
+
+            <!-- C++ -->
+            <div class="card cpp">
+                <div>
+                    <span class="tag tag-cpp">HIGH PERFORMANCE</span>
+                    <h3>C++ Systems</h3>
+                    <div class="code-snippet">#include &lt;iostream&gt;<br>std::cout << "Hi-Fi";</div>
+                    <p>Programmation système basse tension et moteurs physiques ultra-rapides.</p>
+                </div>
+                <div class="footer">
+                    <span style="color:#6495ed; font-size:0.7rem;">STD: C++20</span>
+                    <!-- Remplace la ligne du bouton C++ par celle-ci -->
+<button class="btn-run" onclick="simulerCompilation()">COMPILE()</button>
+
+                </div>
+            </div>
+
+            <!-- JAVA -->
+            <div class="card java">
+                <div>
+                    <span class="tag tag-java">BACKEND ARCHITECTURE</span>
+                    <h3>Java Enterprise</h3>
+                    <div class="code-snippet">public class Ruphy { ... }</div>
+                    <p>Développement d'applications serveurs robustes pour la science.</p>
+                </div>
+                <div class="footer">
+                    <span style="color:var(--accent-orange); font-size:0.7rem;">JVM: OpenJDK 21</span>
+                    <button class="btn-run" onclick="demarrerJava()"><a href="books/livre 3 java.pdf">JVM_START</a></button>
+
+                </div>
+            </div>
+
+            <!-- HTML/CSS -->
+            <div class="card html">
+                <div>
+                    <span class="tag tag-html">VISUAL INTERFACE</span>
+                    <h3>Frontend Tech</h3>
+                    <div class="code-snippet">&lt;section id="lab"&gt;</div>
+                    <p>Design d'interfaces scientifiques interactives et tableaux de bord modernes.</p>
+                </div>
+                <div class="footer">
+                    <span style="color:var(--accent-red); font-size:0.7rem;">W3C: HTML5/CSS3</span>
+                    <button class="btn-run"><a href="">DEPLOY()</a></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script>
+        // Lance l'horloge et la met à jour toutes les 1000ms (1 seconde)
+setInterval(updateClock, 1000);
+updateClock(); // Appel immédiat pour éviter le délai de 1s au chargement
+        
+        function updateClock() {
+    const now = new Date();
+    // Formatage : 00:00:00
+    const timeString = now.toLocaleTimeString('fr-FR', {
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+    });
+    
+    document.getElementById('clock').innerText = timeString;
+}
+
+
+
+        // Fonction vocale "Pro" pour Ruphy
+        function speak(text) {
+            const synth = window.speechSynthesis;
+            const utter = new SpeechSynthesisUtterance(text);
+            utter.lang = 'fr-FR';
+            utter.pitch = 0.8; // Voix un peu plus grave et technologique
+            utter.rate = 1.1;
+            synth.speak(utter);
+        }
+       
+        function simulerCompilation() {
+    speak("Initialisation du compilateur C plus plus... Vérification des dépendances... Compilation réussie.");
+    alert("🚀 Code C++ compilé avec succès (Simulation)");
+}
+function demarrerJava() {
+    // 1. Message vocal pro
+    speak("Démarrage de la machine virtuelle Java. Chargement du Bytecode Ruphy.");
+
+    // 2. Simulation technique dans la console (Appuie sur F12 pour voir)
+    console.log(" [SYSTEM] Initializing JVM...");
+    console.log(" [SYSTEM] Loading: java.lang.Object");
+    console.log(" [SYSTEM] Loading: ruphy.science.Main");
+    
+    // 3. Alerte visuelle pour l'utilisateur
+    setTimeout(() => {
+        alert("☕ [JVM] Java Virtual Machine lancée avec succès.\nCode exécuté en 0.004s");
+        console.log(" [SUCCESS] Execution finished.");
+    }, 500);
+}
+
+
+
+        // Effet de console au chargement
+        window.onload = () => {
+            console.log("%c RUPHY SYSTEM ONLINE ", "background: #00d4ff; color: #000; font-weight: bold;");
+        };
+        function ouvrirLivre(titre, texte) {
+    // 1. On cache la grille de cours pour laisser place au livre
+    document.querySelector('.grid-container').style.display = 'none';
+    document.querySelector('.hero').style.display = 'none';
+    
+    // 2. On affiche la visionneuse et on remplit le contenu
+    const box = document.getElementById('visionneuse-livre');
+    box.style.display = 'block';
+    document.getElementById('titre-livre').innerText = titre;
+    document.getElementById('contenu-livre').innerText = texte;
+    
+    speak("Ouverture du livre de " + titre);
+}
+
+function fermerLivre() {
+    document.getElementById('visionneuse-livre').style.display = 'none';
+    document.querySelector('.grid-container').style.display = 'grid';
+    document.querySelector('.hero').style.display = 'block';
+}
+
+
+    </script>
+</body>
+</html>

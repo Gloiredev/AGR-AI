@@ -1,0 +1,1214 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="AGR-FUTUR" content="width=device-width, initial-scale=1.0" />
+    <title>AGR-FUTUR of GR-SITE</title>
+
+    <!-- Bonne méthode -->
+
+    <style>
+      .hub {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+        z-index: -1;
+      }
+
+      /* CARDS */
+
+      .card {
+        width: 180px;
+        height: 180px;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(20px);
+        border-radius: 30px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 42px;
+        cursor: pointer;
+        transition: 0.4s;
+
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+      }
+
+      .card h3 {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      /* HOVER CONSOLE EFFECT */
+
+      .card:hover {
+        transform: scale(1.15);
+        box-shadow:
+          0 0 40px #00d4ff,
+          0 0 80px #00ff9d;
+      }
+
+      /* FLOAT ANIMATION */
+
+      @keyframes float {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      .card {
+        animation: float 6s ease-in-out infinite;
+      }
+      /* ================= SIDEBAR ================= */
+
+      /* ========================= */
+      /* BOUTON */
+      /* ========================= */
+
+   
+
+      :root {
+        --bg: #030712;
+        --surface: #0f172a;
+        --accent-blue: #00d4ff;
+        --accent-green: #ffbb00;
+        --accent-orange: #f8981d;
+        --accent-red: #e34f26;
+        --glass: rgba(15, 23, 42, 0.9);
+        --border: rgba(255, 255, 255, 0.1);
+        --glard: rgba(217, 208, 228, 0.1);
+
+        --glass-bg:  rgba(0, 0, 0, 0.562);
+        --glass-border: rgba(255, 255, 255, 0.1);
+        --accent: #0011ff;
+        --radius-main: 28px;
+      }
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        font-family: "Segoe UI", sans-serif;
+        overflow: hidden;
+      }
+
+      body {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: darkblue;
+        background: linear-gradient(120deg, cyan, rgb(98, 55, 255));
+        overflow-x: hidden;
+      }
+      /* --- NAVIGATION --- */
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center first baseline;
+        padding: 1.5rem 5%;
+        background: var(--glass);
+        backdrop-filter: blur(15px);
+        border-bottom: 1px solid var(--border);
+        position: sticky;
+        margin: 38px;
+        top: 0;
+        z-index: 1000;
+        border-radius: var(--radius-main);
+      }
+
+      .brand {
+        font-size: 2rem;
+        font-weight: 800;
+        letter-spacing: -2px;
+      }
+      .brand span {
+        color: var(--accent-blue);
+        text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+      }
+
+      /* --- BIBLIOTHÈQUE SCIENTIFIQUE (DROPDOWN) --- */
+      .dropdown {
+        position: left;
+        z-index: 1200;
+      }
+      .dropbtn {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--accent-blue);
+        color: var(--accent-blue);
+        padding: 12px 24px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.3s;
+        text-transform: uppercase;
+        font-family: inherit;
+      }
+      .dropbtn:hover {
+        background: var(--accent-blue);
+        color: #000;
+        box-shadow: 0 0 25px var(--accent-blue);
+      }
+
+      .dropdown-content {
+        display: none;
+        position: right;
+        right: 0;
+        top: 110%;
+        background: #0f172a;
+        min-width: 320px;
+        border-radius: 8px;
+        border: 1px solid var(--border);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+        overflow: hidden;
+      }
+      .dropdown-content a {
+        color: #94a3b8;
+        padding: 15px 20px;
+        text-decoration: none;
+        display: block;
+        border-bottom: 1px solid var(--border);
+        font-size: 0.9rem;
+      }
+      .dropdown-content a:hover {
+        background: rgba(0, 212, 255, 0.05);
+        color: var(--accent-green);
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      
+
+      /* --- FENÊTRE IA --- */
+      .ai-overlay {
+        position: absolute;
+        top: 19px;
+        right: 30px;
+        bottom: 20px;
+        width: 350px;
+        background: var(--glass-bg);
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
+        border: 1px solid var(--glass-border);
+        border-radius: var(--radius-main);
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0px 18px rgb(0, 38, 255);
+        backdrop-filter: blur(20px);
+      }
+
+      .chat-area {
+        flex: 1;
+        padding: 20px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        scroll-behavior: smooth;
+      }
+
+      .msg {
+        padding: 12px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        max-width: 85%;
+        color: white;
+        animation: fadeIn 0.6s ease;
+      }
+
+      .ai-msg {
+        background: transparent;
+        align-self: flex-start;
+        border-bottom-left-radius: 4px;
+        color: white;
+      }
+      .user-msg {
+        background: var(--accent);
+        color: rgba(0, 0, 0, 0.952);
+        align-self: flex-end;
+        border-bottom-right-radius: 4px;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* --- INPUT --- */
+      .input-zone {
+        padding: 15px;
+        border-top: 1px solid var(--glass-border);
+      }
+      .pill-input {
+        background: rgba(0, 0, 0, 0.425);
+        border-radius: 30px;
+        padding: 5px 10px 5px 20px;
+        display: flex;
+        align-items: center;
+        border: 1px solid var(--glass-border);
+      }
+
+      input {
+        background: transparent;
+        border: none;
+        color: white;
+        flex: 1;
+        height: 35px;
+        outline: none;
+        font-size: 14px;
+      }
+
+      .send-btn {
+        background: var(--accent);
+        border: none;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.2s;
+      }
+      .send-btn:hover {
+        transform: scale(1.1);
+      }
+
+      .typing {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+      }
+      .access-btn {
+        display: inline;
+        gap: var(--accent-blue);
+        border-radius: 03px 03px 03px 03px;
+        font-weight: bold;
+        border: 1px var(--accent-green);
+        background: linear-gradient(39deg, rgb(0, 255, 242), rgb(99, 64, 255));
+      }
+      .access-btn:hover {
+        transform: scale(1.1);
+        display: flex;
+        direction: ltr;
+      }
+
+      .dot {
+        width: 6px;
+        height: 6px;
+        background: white;
+        border-radius: 50%;
+        animation: blink 1.4s infinite;
+      }
+
+      .grid-container {
+        max-width: 1300px;
+        margin: 0 auto 100px;
+        padding: 0 20px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+
+      .blink {
+        border: var(--accent-orange);
+      }
+
+      .dot:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+      .dot:nth-child(3) {
+        animation-delay: 0.4s;
+      }
+
+      @keyframes blink {
+        0%,
+        80%,
+        100% {
+          opacity: 0.2;
+        }
+        40% {
+          opacity: 1;
+        }
+      }
+      .btn {
+        width: 30%;
+        padding: 15px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 8px;
+        background: linear-gradient(45deg, #00ffea, #5b1fff);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .men{
+        width: 30%;
+        padding: 15px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 8px;
+        background: linear-gradient(45deg, #00ffea, #5b1fff);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .code-snippet {
+        background: #1044a0;
+        padding: 12px;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        margin: 15px 0;
+        color: #8b949e;
+        border-left: 3px solid var(--card-color);
+      }
+      .span {
+        padding: 36px;
+        background-color: rgba(0, 212, 255, 0.05);
+        color: var(--accent-orange);
+      }
+      #clock {
+        color: #8ab4f8;
+        font-family: monospace;
+      }
+
+      div p {
+        color: #8b949e;
+      }
+      .mode-header {
+        padding: 15px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        color: #00ffd5;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        background: linear-gradient(90deg, #00ffd5, #5b1fff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .terminal {
+        height: 450px;
+        background: rgba(24, 22, 22, 0.13);
+        color: #00ffd5fa;
+        font-family: "Courier New", Courier, monospace;
+        padding: 15px;
+        overflow-y: auto;
+        
+      }
+
+      .terminal-bar {
+        display: flex;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.781);
+        padding: 10px;
+        color: #0011ff;
+        font-family: monospace;
+        border-radius: 18%;
+        border: 1px solid var(--glass-border);
+      }
+
+      .prompt {
+        margin-right: 8px;
+      }
+
+      .terminal-bar input {
+        background: rgba(24, 22, 22, 0);
+        border: none;
+        outline: none;
+        color: #0011ff;
+        flex: 1;
+        font-family: monospace;
+        font-size: 15px;
+        border-radius: 18%;
+      }
+
+      /* curseur hacker */
+      .cursor {
+        width: 10px;
+        height: 18px;
+        background: #ff0000;
+        animation: blink 1s infinite;
+      }
+
+      @keyframes blink {
+        50% {
+          opacity: 0;
+        }
+      }
+      @keyframes float {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+
+      #world {
+        position: center fixed;
+        top: 0;
+        left: 0;
+        background-size: 100px;
+        z-index: -2;
+        background-size: cover;
+        background-position: center;
+        transition: 2s ease;
+        overflow: hidden;
+      }
+      .particle {
+        position: absolute;
+        bottom: -20px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        opacity: 0.6;
+        animation: floatUp linear infinite;
+      }
+
+      @keyframes floatUp {
+        from {
+          transform: translateY(0);
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        to {
+          transform: translateY(-110vh);
+          opacity: 0;
+        }
+      }
+
+      .ai-overlay {
+        animation: float 6s ease-in-out infinite;
+      }
+      body {
+        transition: 1s ease;
+      }
+      /* ☀️ matin */
+      body.morning {
+        background: linear-gradient(120deg, #ffefba, #ffffff);
+      }
+
+      /* 🌤 jour */
+      body.day {
+        background: linear-gradient(120deg, #89f7fe, #66a6ff);
+      }
+
+      /* 🌆 soir (18h) */
+      body.evening {
+        background: linear-gradient(120deg, #ff512f, #dd2476);
+      }
+
+      /* 🌙 nuit */
+      body.night {
+        background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+      }
+
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+  
+  /* Bouton hamburger */
+  .menu-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: linear-gradient(135deg, #000258, #8b5cf6);
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+  }
+
+  .menu-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.6);
+  }
+
+  .hamburger {
+    position: relative;
+    transition: 0.3s;
+  }
+
+  .hamburger::before,
+  .hamburger::after {
+    left: 0;
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: rgb(150, 77, 77);
+    transition: 0.5s;
+  }
+
+  .hamburger::before { top: -7px; }
+  .hamburger::after { top: 7px; }
+
+  .menu-btn.active .hamburger {
+    background: transparent;
+  }
+
+  .menu-btn.active .hamburger::before {
+    transform: rotate(45deg);
+    top: 0;
+    left: 1px;
+  }
+
+  .menu-btn.active .hamburger::after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    left: -280px;
+    top: 0;
+    width: 280px;
+    height: 100vh;
+    background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+    border-right: 1px solid #334155;
+    transition: left 0.4s cubic-bezier(0.4, 0, 0.2, 2);
+    z-index: 999;
+    padding-top: 80px;
+    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 25px;
+    margin: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #94a3b8;
+    text-decoration: none;
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 25px;
+    margin: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #94a3b8;
+    text-decoration: none;
+  }
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 25px;
+    margin: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #94a3b8;
+    text-decoration: none;
+    border: none;
+  }
+
+  .nav-item:hover {
+    background: rgba(99, 102, 241, 0.1);
+    color: #6366f1;
+    transform: translateX(5px);
+  }
+
+  .nav-item:active {
+    background: linear-gradient(90deg, rgba(99, 102, 241, 0.2), transparent);
+    color: #6366f1;
+    border-left: 3px solid #6366f1;
+  }
+
+  .nav-icon {
+    font-size: 20px;
+  }
+
+  /* Overlay */
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 998;
+  }
+
+  .overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Contenu */
+  .main {
+    padding: 80px 30px 30px;
+    transition: margin-left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @media (min-width: 768px) {
+    .sidebar {
+      left: 0;
+    }
+    .main {
+      margin-left: 280px;
+    }
+    .menu-btn {
+      display: none;
+      align-items: center;
+    }
+    .overlay {
+      display: none;
+    }
+  }
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+    </style>
+  </head>
+  <body>
+    <!-- SIDEBAR -->
+    <button class="menu-btn" id="menuBtn">
+      <span class="hamburger"></span>
+    </button>
+
+    <div class="sidebar" id="sidebar">
+      <div class="logo" >   AGR FUTUR </div>
+      
+      <a class="nav-item" onclick="loadAGR('dashboard')">
+        <span class="nav-icon">🏠</span>
+        <span>Dashboard</span>
+      </a>
+
+      <a class="nav-item" onclick="loadAGR('discuss')">
+        <span class="nav-icon">💬</span> <span>Discuss</span>
+      </a>
+
+      <a class="nav-item" onclick="loadAGR('library')">
+        <span class="nav-icon">📚</span> <span>Library</span>
+      </a>
+
+      <a class="nav-item" onclick="loadAGR('tools')"><span class="nav-icon">🧠</span> <span>AI Tools</span></button>
+
+      <a class="nav-item" onclick="loadAGR('settings')">
+        <span class="nav-icon">⚙</span> <span>Settings</span>
+      </a>
+
+      <a class="nav-item" onclick="loadAGR('terminal')">
+        <span class="nav-icon">💻</span> <span>Terminal</span>
+      </a>
+
+      <a class="nav-item" onclick="loadAGR('introduction')">
+        <span>page d'introduction</span>
+      </a>  
+    </div>
+    
+    <div id="aiOverlay" class="ai-overlay">
+      <div
+        style="
+          padding: 15px;
+          text-align: center;
+          border-bottom: 1px solid var(--glass-border);
+          font-weight: 600;
+        "
+      >
+        AGR FOR GR-SITE
+      </div>
+
+      <div class="chat-area" id="chatBox">
+        <div class="msg ai-msg" id="WIZ">
+          Bienvenue à la page d'introduction de l'IA Agr on ne parleras pas
+          tellement d'elle vu que le site JVLTIC.com lui donne déja des infos
+          <br />
+          por ce faire je crois que vous et moi pour tester l'Ia sur la quelle
+          je travaile de puis presque un mois <br />
+          nous alons tous cliquer sur le bouton dans le coin superieur gauche
+          <button class="send-btn" onclick="copyResult()">📝</button>
+        </div>
+      </div>
+    </div>
+    <div
+      id="clock"
+      style="
+        position: absolute;
+        bottom: 10px;
+        left: 100px;
+        color: #ff1100;
+        font-family:
+          &quot;Gill Sans&quot;, &quot;Gill Sans MT&quot;, Calibri,
+          &quot;Trebuchet MS&quot;, sans-serif;
+      "
+    ></div>
+
+    <!-- LE JAVASCRIPT -->
+    <script>
+      const chatForm = document.getElementById("chatForm");
+      const userInput = document.getElementById("userInput");
+      const chatBox = document.getElementById("chatBox");
+
+      function copyResult() {
+        const text = document.getElementById("WIZ").innerText;
+        navigator.clipboard.writeText(text);
+        alert("Copié !");
+      }
+
+      function addMessage(text, className) {
+        const chatBox = document.getElementById("chatBox");
+
+        if (!chatBox) {
+          console.log("chatBox introuvable");
+          return;
+        }
+
+        const div = document.createElement("div");
+        div.classList.add("msg", className);
+
+        chatBox.appendChild(div);
+
+        /* animation écriture IA */
+        if (className === "ai-msg") {
+          let words = text.split(" ");
+          let i = 0;
+
+          function type() {
+            if (i < words.length) {
+              div.textContent += words[i] + " ";
+              i++;
+              setTimeout(type, 50);
+            }
+          }
+
+          type();
+        } else {
+          div.textContent = text;
+        }
+
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }
+      // ===============================
+      // HORLOGE
+      // ===============================
+
+      function updateClock() {
+        const now = new Date();
+        document.getElementById("clock").innerText = now.toLocaleTimeString();
+      }
+      setInterval(updateClock, 100);
+      updateClock();
+
+      function giveTab() {
+        const menu = document.getElementById("sidebarMenu");
+
+        menu.classList.tooggle("hidden");
+        menu.classList.toogle("show");
+      }
+    </script>
+
+    <script>
+      function loadAGR(mode) {
+        const overlay = document.getElementById("aiOverlay");
+
+        switch (mode) {
+          /* ================= DASHBOARD ================= */
+
+          case "dashboard":
+            overlay.innerHTML = `
+        <div class="mode-header">🏠 Dashboard AGR</div>
+        <div style="padding:20px">
+        <p>Bienvenue dans AGR FUTUR.</p>
+         <p>Pour  le moment Agr vous propose ceci
+        
+
+        <button class="menu" onclick="loadAGR('discuss')">
+          💬 Discuss
+        </button>
+
+        <button class="menu" onclick="loadAGR('library')">
+          📚 Library
+        </button>
+
+        <button class="menu" onclick="loadAGR('tools')">🧠 AI Tools</button>
+
+        <button class="menu" onclick="loadAGR('settings')">
+          ⚙ Settings
+        </button>
+
+        <button class="menu" onclick="loadAGR('terminal')">
+          💻 Terminal
+        </button>
+
+        <button class="menu" onclick="loadAGR('introduction')">
+          page d'introduction
+        </button>
+        </div>
+        `;
+            break;
+
+          /* ================= DISCUSS ================= */
+
+          case "discuss":
+            overlay.innerHTML = `
+        <div class="mode-header">💬 Discuss AGR</div>
+
+        <div class="chat-area" id="chatBox">
+        <div class="msg ai-msg">
+        Bonjour. Je suis connecté au serveur Flask AGR.
+        </div>
+        </div>
+
+        <div class="input-zone">
+        <form id="chatForm" class="pill-input">
+        <input id="userInput" placeholder="Parlez à AGR..." autocomplete="off">
+        <button class="send-btn">➤</button>
+        </form>
+        </div>
+        `;
+
+            initDiscuss(); // 🔥 reconnecte le serveur
+
+            break;
+
+          /* ================= LIBRARY ================= */
+
+          case "library":
+            overlay.innerHTML = `
+        <div class="mode-header">📚 Library</div>
+        <div style="padding:20px">
+        <a href="./BLIBLIO.HTML">Ouvrir la bibliothèque</a>
+        </div>
+        `;
+            break;
+
+          /* ================= SETTINGS ================= */
+
+          case "settings":
+            overlay.innerHTML = `
+        <div class="mode-header">⚙ Settings</div>
+        <div style="padding:20px">
+        <button class="btn" id="bro">Mode sombre</button>
+        </div>
+        `;
+            break;
+
+          /* ================= TOOLS ================= */
+
+          case "tools":
+            overlay.innerHTML = `
+        <div class="mode-header">🧠 AI Tools</div>
+        <div style="padding:20px">
+        <p>Analyse IA disponible.</p>
+        </div>
+        `;
+            break;
+
+          /*PAGE D'INTRODUCTION*/
+
+          case "introduction":
+            overlay.innerHTML = `
+        <div class="mode-header">📃 Introduction Agr </div>  
+          
+        <div class="msg ai-msg" id="WIZ">
+        Bienvenue à la page d'introduction de l'IA Agr on ne parleras pas
+        tellement d'elle vu que le site JVLTIC.com lui donne déja des infos
+        <br />
+        por ce faire je crois que vous et moi pour tester l'Ia sur la quelle
+        je travaile de puis presque un mois <br />
+        nous alons tous cliquer sur le bouton dans le coin superieur gauche
+        <button class="send-btn" onclick="copyResult()">📝</button>
+        </div>  
+        `;
+            break;
+
+          //========== TERMINAL =================
+
+          case "terminal":
+            overlay.innerHTML = `
+        <div class="mode-header">💻 AGR TERMINAL ELITE</div>
+
+        <div id="terminalOutput" class="terminal"></div>
+
+        <div class="terminal-bar">
+        <span class="prompt">AGR-OS >_</span>
+        <input id="terminalInput" autocomplete="off">
+        <span class="cursor"></span>
+        </div>
+        `;
+
+            initTerminalElite();
+
+            break;
+
+            initTerminal();
+
+            break;
+        }
+      }
+
+      const bro = document.getElementById("bro");
+      bro.addEventListener("click", () => {
+        document.body.style.background = "linear-gradient(120deg, blue, green)";
+      })
+    </script>
+    <script>
+      function speak(text) {
+        const synth = window.speechSynthesis;
+        const utter = new SpeechSynthesisUtterance(text);
+        utter.lang = "fr-FR";
+        utter.pitch = 0.8; // Voix un peu plus grave et technologique
+        utter.rate = 1.1;
+        synth.speak(utter);
+      }
+    </script>
+
+    <script>
+      function initDiscuss() {
+        const chatForm = document.getElementById("chatForm");
+        const userInput = document.getElementById("userInput");
+
+        chatForm.addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const message = userInput.value.trim();
+          if (!message) return;
+
+          addMessage(message, "user-msg");
+          userInput.value = "";
+
+          try {
+            const res = await fetch("/AGR", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ message }),
+            });
+
+            const data = await res.json();
+            speak(data.reply);
+            addMessage(data.reply, "ai-msg");
+          } catch {
+            speak("⚠ Il semble que mon serveur soit éteint ");
+            addMessage("⚠ Il semble que mon serveur soit éteint ", "ai-msg");
+          }
+        });
+      }
+    </script>
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('overlay');
+        const navItems = document.querySelectorAll('.nav-item');
+
+        function toggleSidebar() {
+          menuBtn.classList.toggle('active');
+          sidebar.classList.toggle('active');
+          overlay.classList.toggle('active');
+        }
+
+        menuBtn.addEventListener('click', toggleSidebar);
+        overlay.addEventListener('click', toggleSidebar);
+
+        // Active l'item cliqué
+        navItems.forEach(item => {
+          item.addEventListener('click', function(e) {
+            e.preventDefault();
+            navItems.forEach(i => i.classList.remove('active'));
+            this.classList.add('active');
+          });
+        });
+
+        // Ferme auto sur mobile après clic
+        if (window.innerWidth < 768) {
+          navItems.forEach(item => {
+            item.addEventListener('click', () => {
+              setTimeout(toggleSidebar, 200);
+            });
+          });
+        }
+    </script>
+    <script>
+      function initTerminalElite() {
+        const input = document.getElementById("terminalInput");
+        const output = document.getElementById("terminalOutput");
+
+        let history = [];
+        let historyIndex = 0;
+
+        print("AGR Terminal Elite Ready");
+        print("Type 'help'");
+
+        input.focus();
+
+        /* ENTER COMMAND */
+        input.addEventListener("keydown", async (e) => {
+          /* HISTORIQUE ↑ */
+          if (e.key === "ArrowUp") {
+            historyIndex = Math.max(0, historyIndex - 1);
+            input.value = history[historyIndex] || "";
+            return;
+          }
+
+          /* HISTORIQUE ↓ */
+          if (e.key === "ArrowDown") {
+            historyIndex = Math.min(history.length, historyIndex + 1);
+            input.value = history[historyIndex] || "";
+            return;
+          }
+
+          /* EXECUTE */
+          if (e.key === "Enter") {
+            const cmd = input.value.trim();
+            if (!cmd) return;
+
+            history.push(cmd);
+            historyIndex = history.length;
+
+            print("AGR-OS>_ " + cmd);
+            input.value = "";
+
+            /* COMMANDES IA INTERNES */
+            if (cmd === "help") {
+              print("Commands:");
+              print("help | clear | about | IA");
+              return;
+            }
+
+            if (cmd === "clear") {
+              output.innerHTML = "";
+              return;
+            }
+
+            if (cmd === "about") {
+              print("AGR OS — AI Operating System, AGR is an AI, who was created by ATUKUZWE ZOLA Gloire, this project was initiated in 2026, another information are at JVL-TIC.com.");
+              return;
+            }
+
+            if (cmd.startsWith("IA")) {
+              print("🧠 AGR thinking...");
+              setTimeout(() => {
+                print("AI Result: " + cmd.slice(3));
+              }, 800);
+              return;
+            }
+
+            /* ENVOI SERVEUR FLASK */
+            try {
+              const res = await fetch("/terminal", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ command: cmd }),
+              });
+
+              const data = await res.json();
+
+              print(data.output);
+            } catch {
+              print("Your server is offline, please verify if your server is online and try again.");
+            }
+          }
+        });
+
+        function print(text) {
+          const line = document.createElement("div");
+          line.textContent = text;
+          output.appendChild(line);
+          output.scrollTop = output.scrollHeight;
+        }
+      }
+    </script>
+    
+    <script>
+      function createParticles(color) {
+        world.innerHTML = "";
+
+        for (let i = 0; i < 30; i++) {
+          const p = document.createElement("div");
+
+          p.className = "particle";
+          p.style.background = color;
+
+          p.style.left = Math.random() * 100 + "%";
+          p.style.animationDuration = 5 + Math.random() * 10 + "s";
+
+          world.appendChild(p);
+        }
+      }
+    </script>
+    
+     <script>
+        function updateBackground() {
+        const hour = new Date().getHours();
+
+        let img = "";
+
+       
+          img = "./static/PIN-Image.png";
+        
+
+        document.body.style.background = `url(${img})`;
+        document.body.style.backgroundPosition = "center fixed";
+        document.body.style.backgroundSize = "920px"
+      }
+
+      updateBackground();
+    </script>  
+  </body>
+</html>

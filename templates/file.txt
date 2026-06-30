@@ -1,0 +1,42 @@
+ function updateThemeByTime() {
+        const hour = new Date().getHours();
+
+        const body = document.body;
+
+        body.classList.remove("morning", "evening", "night");
+
+        if (hour >= 6 && hour < 12) {
+          body.classList.add("morning");
+        } else if (hour >= 12 && hour < 18) {
+          body.classList.add("day");
+        } else if (hour >= 18 && hour < 19) {
+          body.classList.add("evening");
+        } else {
+          body.classList.add("night");
+        }
+      }
+
+      updateThemeByTime();
+      setInterval(updateThemeByTime, 60000); // mise à jour chaque minute
+
+      
+    </script>
+    <script>
+      function updateBackground() {
+        const hour = new Date().getHours();
+
+        let img = "";
+
+        if (hour >= 6 && hour < 12)
+          img = "{{ url_for('static', filename='day.png') }}";
+        else if (hour >= 12 && hour < 17)
+          img = "{{ url_for('static', filename='day.png') }}";
+        else if (hour >= 18 && hour < 19)
+          img = "{{ url_for('static', filename='evening.png') }}";
+        else img = "{{ url_for('static', filename='night.png') }}";
+
+        document.body.style.backgroundImage = `url(${img})`;
+      }"
+
+      updateBackground();
+    </script>

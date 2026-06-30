@@ -1,0 +1,1436 @@
+{
+    "discussions": [
+        {
+            "user": "BONJOUR",
+            "ia": "Yo \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "Tu sais je m'appelle gloire",
+            "ia": "Je suis au top \ud83d\udcaa pr\u00eat \u00e0 t\u2019aider !"
+        },
+        {
+            "user": "bonjour",
+            "ia": "salut \ud83d\ude04"
+        },
+        {
+            "user": "je m'appelle gloire tu le savais",
+            "ia": "Franchement \u00e7a va super \ud83d\ude0e et toi ?"
+        },
+        {
+            "user": "bonjour agr \u00e7a roule ",
+            "ia": "Franchement \u00e7a va super \ud83d\ude0e et toi ?"
+        },
+        {
+            "user": "cool merci",
+            "ia": "T\u2019inqui\u00e8te \ud83d\ude0e"
+        },
+        {
+            "user": "alors je m'appelle Gloire",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "alors je m'appelle Gloire",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "d'acc",
+            "ia": "Salut \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "je m'appelle gloire",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "totu roule pour toi je vois",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "tout roule?",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "cool merci",
+            "ia": "Avec plaisir \ud83d\ude04"
+        },
+        {
+            "user": "je serais curieux de savoir t'es qui",
+            "ia": "AGR \u00e0 ton service \ud83d\udd25 cr\u00e9\u00e9e par ATUKUZWE ZOLA Gloire pour \u00e9voluer avec toi."
+        },
+        {
+            "user": "et de savoir qui t'a cr\u00e9e",
+            "ia": "On m'appelle AGR, ton assistant intelligent \ud83d\ude0e, con\u00e7ue par ATUKUZWE ZOLA Gloire"
+        },
+        {
+            "user": "qui t'as cr\u00e9e",
+            "ia": "c'est ATUKUZWE ZOLA Gloire qui m'a cr\u00e9e \ud83d\ude0e"
+        },
+        {
+            "user": "d'accord merci",
+            "ia": "Avec plaisir \ud83d\ude04"
+        },
+        {
+            "user": "j'aime daniella",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "j'aime",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "j'aime danniella",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "j'aime une autre moeuf qui ne voudras jamais de moi",
+            "ia": "Je suis AGR \ud83e\udd16, une IA cr\u00e9\u00e9e par ATUKUZWE ZOLA Gloire."
+        },
+        {
+            "user": "j'aime daniella",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "J'aime bouffer",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "je m'appelle RUPHIN",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Yo  ruphin \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "PARLE DE TOI",
+            "ia": "Je suis encore en \u00e9volution, mais je peux d\u00e9j\u00e0 pas mal t\u2019aider \ud83d\ude0e"
+        },
+        {
+            "user": "T'es qui",
+            "ia": "Je suis AGR \ud83e\udd16, une IA cr\u00e9\u00e9e par ATUKUZWE ZOLA Gloire."
+        },
+        {
+            "user": "qui t'as cr\u00e9e",
+            "ia": "Mon cr\u00e9ateur, c'est ATUKUZWE ZOLA Gloire\ud83d\udcaa"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Yo  ruphin \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut ruphin \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut ruphin \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Hey ruphin\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "BONJOUR IA",
+            "ia": "Salut Gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "Renseigne moi t'es qui",
+            "ia": "On m'appelle AGR, ton assistant intelligent \ud83d\ude0e, con\u00e7ue par ATUKUZWE ZOLA Gloire"
+        },
+        {
+            "user": "donc ton cr\u00e9ataur c'est",
+            "ia": "AGR \u00e0 ton service \ud83d\udd25 cr\u00e9\u00e9e par ATUKUZWE ZOLA Gloire pour \u00e9voluer avec toi."
+        },
+        {
+            "user": "Ah! d'accord tu a \u00e9t\u00e9 con\u00e7ue par un mec qui se nomme ATUKUZWE ZOLA Gloire c'est bien merci",
+            "ia": "Franchement \u00e7a va super \ud83d\ude0e et toi ?"
+        },
+        {
+            "user": "merci \u00e7a vas",
+            "ia": "Franchement \u00e7a va super \ud83d\ude0e et toi ?"
+        },
+        {
+            "user": "merrci",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "cool merci",
+            "ia": "Avec plaisir \ud83d\ude04"
+        },
+        {
+            "user": "et bah voil\u00e0",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "Bonjor AGR",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "BONJOU",
+            "ia": "Hey Gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  Gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "non je m'appelle elvis",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  Gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  elvis \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "j'ai besoin de te parler",
+            "ia": "Pour l\u2019instant je t\u2019aide \u00e0 discuter et comprendre, mais je vais \u00e9voluer \ud83d\ude0f"
+        },
+        {
+            "user": "c'est qui PDD",
+            "ia": "On m'appelle AGR, ton assistant intelligent \ud83d\ude0e, con\u00e7ue par ATUKUZWE ZOLA Gloire"
+        },
+        {
+            "user": "OUVRE CMD",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "OUVRE CMD",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "D'accord merci",
+            "ia": "Avec plaisir \ud83d\ude04"
+        },
+        {
+            "user": "attend mais je venais juste de te l'apprendre",
+            "ia": "Pour l\u2019instant je t\u2019aide \u00e0 discuter et comprendre, mais je vais \u00e9voluer \ud83d\ude0f"
+        },
+        {
+            "user": "ouvre cmd",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "salut AGR",
+            "ia": "Yo  elvis \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "D\u00e9sol\u00e9 mais c'est ton cr\u00e9ateur qui te parle je m'appelle Gloire",
+            "ia": "Je suis AGR \ud83e\udd16, une IA cr\u00e9\u00e9e par ATUKUZWE ZOLA Gloire."
+        },
+        {
+            "user": "je m'appelle Gloire",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "bonjour toyt roule",
+            "ia": "Hey elvis\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "bonjour agr",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "comment tu vas",
+            "ia": "Toujours en forme \ud83d\udd25 et toi \u00e7a dit quoi ?"
+        },
+        {
+            "user": "bien merci",
+            "ia": "T\u2019inqui\u00e8te \ud83d\ude0e"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "il est quelle heure",
+            "ia": "Je n'ai pas d'horloge pr\u00e9cise ici, mais on est bien au XXI\u00e8me si\u00e8cle !"
+        },
+        {
+            "user": "put",
+            "ia": "Restons polis, s'il te pla\u00eet."
+        },
+        {
+            "user": "d\u00e9sol\u00e9e euh! t'es supe intelligent j'aurais pas dus dire \u00e7a",
+            "ia": "Toujours en forme \ud83d\udd25 et toi \u00e7a dit quoi ?"
+        },
+        {
+            "user": "tu es intelligent",
+            "ia": "On m'appelle AGR, ton assistant intelligent \ud83d\ude0e, con\u00e7ue par ATUKUZWE ZOLA Gloire"
+        },
+        {
+            "user": "intelligent",
+            "ia": "Merci pour ces compliments, \u00e7a me touche (virtuellement) !"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjur",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "connard",
+            "ia": "Soyons constructifs, pas besoin d'\u00eatre d\u00e9sagr\u00e9able."
+        },
+        {
+            "user": "je m'appelle ruphin",
+            "ia": "De rien ! C'est un plaisir."
+        },
+        {
+            "user": "ouvre cmd",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "salut agr",
+            "ia": "Salut ruphin \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "desol\u00e9 l\u00e0 ce n'est pas ruphin je m'appelle GLOIRE",
+            "ia": "\u00c0 ton service !"
+        },
+        {
+            "user": "Salut agr",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "de tout en fait quoi de neuf comment tu vas",
+            "ia": "Toujours en forme \ud83d\udd25 et toi \u00e7a dit quoi ?"
+        },
+        {
+            "user": "t'es capable d'ouvrir cmd",
+            "ia": "On m'appelle AGR, ton assistant intelligent \ud83d\ude0e, con\u00e7ue par ATUKUZWE ZOLA Gloire"
+        },
+        {
+            "user": "tu peux ouvrir cmd",
+            "ia": "Je suis au top \ud83d\udcaa pr\u00eat \u00e0 t\u2019aider !"
+        },
+        {
+            "user": "ouvre cmd",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "ouvre cmd",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "ouvre vlc",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "ouvre cmd",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "ouvre vlc",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "chic chicu",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "chic chicu",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "ouvre moi vlc",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "Ouvre le disque b:\\",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "ET PORTANT SI, PETACE",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "zizi petace",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "p\u00e9tace",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "con",
+            "ia": "Pourquoi les plongeurs plongent-ils toujours en arri\u00e8re ? Parce que sinon ils tombent dans le bateau."
+        },
+        {
+            "user": "con",
+            "ia": "Qu'est-ce qu'un informaticien quand il a soif ? Il boit du Java."
+        },
+        {
+            "user": "pute",
+            "ia": "Restons polis, s'il te pla\u00eet."
+        },
+        {
+            "user": "avec qui susseuse de bite, put",
+            "ia": "AGR \u00e0 ton service \ud83d\udd25 cr\u00e9\u00e9e par ATUKUZWE ZOLA Gloire pour \u00e9voluer avec toi."
+        },
+        {
+            "user": "Bsr agr",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "c'est \u00e7a",
+            "ia": "Toujours en forme \ud83d\udd25 et toi \u00e7a dit quoi ?"
+        },
+        {
+            "user": "tout roule",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "je m'appelle Gloire",
+            "ia": "Pas de souci, n'h\u00e9site pas si tu as d'autres questions."
+        },
+        {
+            "user": "je m'appelle Gloire",
+            "ia": "De rien ! C'est un plaisir."
+        },
+        {
+            "user": "je m'appelle gloire",
+            "ia": "Je suis l\u00e0 pour \u00e7a !"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "OUVRE MOI VLC",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "COOL MERCI",
+            "ia": "Pas de souci, n'h\u00e9site pas si tu as d'autres questions."
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "de toi aide moi",
+            "ia": "Qu'est-ce qu'un informaticien quand il a soif ? Il boit du Java."
+        },
+        {
+            "user": "tr\u00e9s drole aide moi",
+            "ia": "Qu'est-ce qu'un informaticien quand il a soif ? Il boit du Java."
+        },
+        {
+            "user": "raconte moi une blague",
+            "ia": "C'est l'histoire d'un angle qui va au restaurant. Il commande un angle droit."
+        },
+        {
+            "user": "\ud83d\ude02\ud83d\ude02\ud83d\ude02! Bravo",
+            "ia": "Merci pour ces compliments, \u00e7a me touche (virtuellement) !"
+        },
+        {
+            "user": "raconte moi une autre blague",
+            "ia": "C'est l'histoire d'un angle qui va au restaurant. Il commande un angle droit."
+        },
+        {
+            "user": "de l'humour !",
+            "ia": "Je peux discuter avec toi, r\u00e9pondre \u00e0 tes questions et bient\u00f4t faire encore plus \ud83d\udd25"
+        },
+        {
+            "user": "humour !",
+            "ia": "Pourquoi les plongeurs plongent-ils toujours en arri\u00e8re ? Parce que sinon ils tombent dans le bateau."
+        },
+        {
+            "user": "\ud83d\ude02\ud83d\ude02\ud83d\ude02! tu es tr\u00e9s intelligent",
+            "ia": "AGR \u00e0 ton service \ud83d\udd25 cr\u00e9\u00e9e par ATUKUZWE ZOLA Gloire pour \u00e9voluer avec toi."
+        },
+        {
+            "user": "tu es intelligent",
+            "ia": "Je suis AGR \ud83e\udd16, une IA cr\u00e9\u00e9e par ATUKUZWE ZOLA Gloire."
+        },
+        {
+            "user": "je t'aime",
+            "ia": "Merci pour ces compliments, \u00e7a me touche (virtuellement) !"
+        },
+        {
+            "user": "bien jou\u00e9",
+            "ia": "Oh, c'est gentil ! Moi aussi je t'appr\u00e9cie."
+        },
+        {
+            "user": "salut AGR",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "OUVRE VLC",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "ouvre vlc",
+            "ia": "l'application est ouverte"
+        },
+        {
+            "user": "quelle ta version",
+            "ia": "je me retrouve actuellement \u00e0 la version 1.0.0! La toute premi\u00e8re version de AGR. Pour plus d'info vas sur le site GR"
+        },
+        {
+            "user": "2+2",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "1+1",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "HEURE",
+            "ia": "Il est l'heure de faire de grandes choses !"
+        },
+        {
+            "user": "SALUT",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "PYTHON",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "DATE",
+            "ia": "Il est l'heure de faire de grandes choses !"
+        },
+        {
+            "user": "SALUTATION",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonsoir AGR",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "OUVRE VLC",
+            "ia": "l'application est ouverte"
+        },
+        {
+            "user": "MERCI",
+            "ia": "De rien ! C'est un plaisir."
+        },
+        {
+            "user": "Il est quelle heure",
+            "ia": "Je n'ai pas d'horloge pr\u00e9cise ici, mais on est bien au XXI\u00e8me si\u00e8cle !"
+        },
+        {
+            "user": "bonsoir",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "dit moi quelle est ta version",
+            "ia": "je me retrouve actuellement \u00e0 la version 1.0.0! La toute premi\u00e8re version de AGR. Pour plus d'info vas sur le site GR"
+        },
+        {
+            "user": "Alors bonjour tout roule",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "salut",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "parle moi de python",
+            "ia": "C'est l'histoire d'un angle qui va au restaurant. Il commande un angle droit."
+        },
+        {
+            "user": "python",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "c'est quoi le python",
+            "ia": "Il est l'heure de faire de grandes choses !"
+        },
+        {
+            "user": "langage python",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "python",
+            "ia": "super,je vois que tu veux apprendre le python ,alors commen\u00e7ons! le python est un langage de programmation puissant cr\u00e9\u00e9 par Guido van Rossum,ce langage est dynamique et conseill\u00e9 pour les d\u00e9butants car il offre un conffort et des d\u00e9fis aux jeunes apprennants!voici quelques modules avec python:tkinter,pyttsx3,festapi,pyinstaller le module qui transorme un fichier python en une application exe!si tu es tent\u00e9 par ce langage rend toi sur le site ruphy et apprend tous les langage que tu veux"
+        },
+        {
+            "user": "c++",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "LE JAVA",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "java",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "le javascript",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "le java",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "java",
+            "ia": "nouveau lanuage mis aupoint pour accompagner le html pour la r\u00e9alisation des pages web plus sublimes qu'avant(le html est un gros parasyte \ud83d\ude0e)"
+        },
+        {
+            "user": "Bonsoir",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "Parle moi de python",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "python",
+            "ia": "super,je vois que tu veux apprendre le python ,alors commen\u00e7ons! le python est un langage de programmation puissant cr\u00e9\u00e9 par Guido van Rossum,ce langage est dynamique et conseill\u00e9 pour les d\u00e9butants car il offre un conffort et des d\u00e9fis aux jeunes apprennants!voici quelques modules avec python: -tkinter, pyttsx3, festapi, pyinstaller le module qui transorme un fichier python en une application exe!si tu es tent\u00e9 par ce langage rend toi sur le site ruphy et apprend tous les langage que tu veux"
+        },
+        {
+            "user": "java",
+            "ia": "nouveau lanuage mis aupoint pour accompagner le html pour la r\u00e9alisation des pages web plus sublimes qu'avant(le html est un gros parasyte \ud83d\ude0e)"
+        },
+        {
+            "user": "c'est quoi un langage de programmation",
+            "ia": "tu veux savoir c'est quoi un langage de programmation ? tout d'abord il est important de dire que la programmation est la maniere de donner des ordes \u00e0 un ordinateur et alors un langage de programmation est un ensemble des signes et des symboles utilis\u00e9s pour faire la programmation,en bref c'est un langage que les ordinateurs comprenne!Si tu veux tout apprendre rends toi sur le site ruphy et commence avec des cours gratuits"
+        },
+        {
+            "user": "PROGRAMMATION",
+            "ia": "le langage de programmation est un ensembles des symboles util\u00e9s pour donner des ordres \u00e0 un ordi! par exemple on a:le python,le html,le css,le java, le javascript,le c++ etc.Si tu veux apprendre l'un des ces langages le site JVLTIC vous propose des cours gratuits et des offres donc passe sur ce site et d\u00e9couvre la magie de la programmation "
+        },
+        {
+            "user": "lense le cujet hackers",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "QIDE",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "aide",
+            "ia": "Je peux discuter avec toi, r\u00e9pondre \u00e0 tes questions et bient\u00f4t faire encore plus \ud83d\udd25"
+        },
+        {
+            "user": "BONSOIR",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "bonsoir",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "GLOIRE",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "SALUT",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "CALCULE 3+4",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "QUIES TU",
+            "ia": "Franchement \u00e7a va super \ud83d\ude0e et toi ?"
+        },
+        {
+            "user": "SUJET",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "HEURE",
+            "ia": "Il est l'heure de faire de grandes choses !"
+        },
+        {
+            "user": "PYTHON",
+            "ia": "super,je vois que tu veux apprendre le python ,alors commen\u00e7ons! le python est un langage de programmation puissant cr\u00e9\u00e9 par Guido van Rossum,ce langage est dynamique et conseill\u00e9 pour les d\u00e9butants car il offre un conffort et des d\u00e9fis aux jeunes apprennants!voici quelques modules avec python: -tkinter, pyttsx3, festapi, pyinstaller le module qui transorme un fichier python en une application exe!si tu es tent\u00e9 par ce langage rend toi sur le site JVLTIC pour aprofondir ce langage et apprend tous les langage que tu veux"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "calcule sin(4)",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "calcul sin(4)",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "calcul sin(4)",
+            "ia": "le resultat est \u2728 Ruphia Astral : R\u00e9sultat -> E*t**2*x"
+        },
+        {
+            "user": "calcul 400000000+43",
+            "ia": "le resultat est \u2728 Ruphia Astral : R\u00e9sultat -> E*t**2*x"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "BONJOUR AGR",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "Wheh c'est bon j'ai vu",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "comment \u00e7a vas",
+            "ia": "Toujours en forme \ud83d\udd25 et toi \u00e7a dit quoi ?"
+        },
+        {
+            "user": "cool mais j'aimerais que tu me calcule 333+44",
+            "ia": "\u00c0 ton service !"
+        },
+        {
+            "user": "Calcule 33+44",
+            "ia": "le resultat est \u2728 Ruphia Astral : R\u00e9sultat -> E*t**2*x"
+        },
+        {
+            "user": "calcul 33+33",
+            "ia": "le resultat est \u2728 Ruphia Astral : R\u00e9sultat -> E*t**2*x"
+        },
+        {
+            "user": "Calcul 33+33",
+            "ia": "le resultat est \u2728 Ruphia Astral : R\u00e9sultat -> E*t**2*x"
+        },
+        {
+            "user": "Calcul 33+34",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "calcul 33+34",
+            "ia": "resultat: \u2728 Ruphia Astral : R\u00e9sultat -> user_input"
+        },
+        {
+            "user": "OUVRIR_FICHIER \"C:\\Users\\ZOLA\\Videos\\DANIEL\\Daniel Spellbound Tout pour la magie - Saison 1 \u00c9pisode 1.mp4\"",
+            "ia": "tu veux savoir c'est quoi un langage de programmation ? tout d'abord il est important de dire que la programmation est la maniere de donner des ordes \u00e0 un ordinateur et alors un langage de programmation est un ensemble des signes et des symboles utilis\u00e9s pour faire la programmation,en bref c'est un langage que les ordinateurs comprenne!Si tu veux tout apprendre rends toi sur le site JVLTIC et commence avec des cours gratuits"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "CALCUL 33+33",
+            "ia": "resultat: \u2728 Ruphia Astral : R\u00e9sultat -> user_input"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "calcul 33+33",
+            "ia": "resultat: \u2728 Ruphia Astral : R\u00e9sultat -> user_input"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "OUVRE VLC",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "ouvre vlc",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "ouvre vlc",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "CALCUL 3+4",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "Met\u00e9o",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "quel temps",
+            "ia": "Il est l'heure de faire de grandes choses !"
+        },
+        {
+            "user": "m\u00e9t\u00e9o",
+            "ia": "Regarde par la fen\u00eatre, moi je ne vois que des 0 et des 1."
+        },
+        {
+            "user": "m\u00e9t\u00e9o",
+            "ia": "Je n'ai pas de capteur m\u00e9t\u00e9o en direct, mais il fait toujours beau dans mon code !"
+        },
+        {
+            "user": "m\u00e9t\u00e9o",
+            "ia": "D'apr\u00e8s mes circuits, le temps est id\u00e9al pour coder."
+        },
+        {
+            "user": "d'acc",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "calcul moi 2+2",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "OUVRE VLC",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "SALUT",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "CALCULE SIN5",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "calcule moi ceci 3+8",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "CALCUL 3+4",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "CALCULE 4567",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "INFO",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "Bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "aide moi",
+            "ia": "je connait une ville; une belle ville,je fut cr\u00e9\u00e9 l\u00e0-basje connait paris,goma,londres,abijan et dakar ; veus-tu que je te parle de quelle ville ?\ud83e\udd14"
+        },
+        {
+            "user": "abijan",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "dakar",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "paris",
+            "ia": "paris est une ville classe situ\u00e9 en france,la belle vie non ? \ud83d\ude0e"
+        },
+        {
+            "user": "goma",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "londres",
+            "ia": " ouaou c'est l'une des plus belle du monde c'est le temple du foot \u26bd\u26bd\u26bd"
+        },
+        {
+            "user": "football",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "////***///",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "calcul 3+3",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "ouvre vlc",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "merci",
+            "ia": "Pas de souci, n'h\u00e9site pas si tu as d'autres questions."
+        },
+        {
+            "user": "ouvre  bloc notes",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "ouvre bloc-notes",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "OUVRE MOI VLC je veux suivre quelques videos",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "ouvre moi bloc-notes",
+            "ia": "votre application est ouverte\ud83d\udcaa"
+        },
+        {
+            "user": "merci",
+            "ia": "Je suis l\u00e0 pour \u00e7a !"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "AIDE",
+            "ia": "Je suis encore en \u00e9volution, mais je peux d\u00e9j\u00e0 pas mal t\u2019aider \ud83d\ude0e"
+        },
+        {
+            "user": "aide",
+            "ia": "Pour l\u2019instant je t\u2019aide \u00e0 discuter et comprendre, mais je vais \u00e9voluer \ud83d\ude0f"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "J'aime Wanny",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "quit",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "ouvre vlc",
+            "ia": "votre application est ouverte\ud83d\udcaa"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "Bienvenue \u00e0 la page d'introduction de l'IA Agr on ne parleras pas tellement d'elle vu que le site JVLTIC.com lui donne d\u00e9ja des infos por ce faire je crois que vous et moi pour tester l'Ia sur la quelle je travaile de puis presque un mois nous alons tous cliquer sur le bouton dans le coin superieur gauche \ud83d\udcdd",
+            "ia": "Je n'ai pas d'horloge pr\u00e9cise ici, mais on est bien au XXI\u00e8me si\u00e8cle !"
+        },
+        {
+            "user": "AIDE",
+            "ia": "Pour l\u2019instant je t\u2019aide \u00e0 discuter et comprendre, mais je vais \u00e9voluer \ud83d\ude0f"
+        },
+        {
+            "user": "Hmm d'accord merci",
+            "ia": "Je suis l\u00e0 pour \u00e7a !"
+        },
+        {
+            "user": "qui est ton cr\u00e9ateur",
+            "ia": "AGR \u00e0 ton service \ud83d\udd25 cr\u00e9\u00e9e par ATUKUZWE ZOLA Gloire pour \u00e9voluer avec toi."
+        },
+        {
+            "user": "ton cr\u00e9ateur",
+            "ia": "Je suis AGR \ud83e\udd16, une IA cr\u00e9\u00e9e par ATUKUZWE ZOLA Gloire."
+        },
+        {
+            "user": "date",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "date",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "date",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "date",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "ouvre vlc",
+            "ia": "votre application est ouverte\ud83d\udcaa"
+        },
+        {
+            "user": "python",
+            "ia": "super,je vois que tu veux apprendre le python ,alors commen\u00e7ons! le python est un langage de programmation puissant cr\u00e9\u00e9 par Guido van Rossum,ce langage est dynamique et conseill\u00e9 pour les d\u00e9butants car il offre un conffort et des d\u00e9fis aux jeunes apprennants!voici quelques modules avec python: -tkinter, pyttsx3, festapi, pyinstaller le module qui transorme un fichier python en une application exe!si tu es tent\u00e9 par ce langage rend toi sur le site JVLTIC pour aprofondir ce langage et apprend tous les langage que tu veux"
+        },
+        {
+            "user": "javascript",
+            "ia": "nouveau lanuage mis aupoint pour accompagner le html pour la r\u00e9alisation des pages web plus sublimes qu'avant(le html est un gros parasyte \ud83d\ude0e)"
+        },
+        {
+            "user": "hml",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "html",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "d'accord merci",
+            "ia": "Pas de souci, n'h\u00e9site pas si tu as d'autres questions."
+        },
+        {
+            "user": "code",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "Bonjour",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "salut",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "parle moi de toi qui es tu",
+            "ia": "AGR \u00e0 ton service \ud83d\udd25 cr\u00e9\u00e9e par ATUKUZWE ZOLA Gloire pour \u00e9voluer avec toi."
+        },
+        {
+            "user": "gen\u00e8re moi du code",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "outils",
+            "ia": "Pour l'instant je suis \u00e9quip\u00e9e d'un serveur cr\u00e9\u00e9 par mon ma\u00eetre Ruphin(il est le moteur qui me donne vie), je poss\u00e8de un acc\u00e8s aux infos direct du site Ruphy,une page web unique avec interface de haut niveaux ,des jeux qvec pygame,des scripts por mon style,et j'ai acc\u00e8s aux cinq versions de calculatrices Ruphilators"
+        },
+        {
+            "user": "quels sont tes modules de cr\u00e9ation",
+            "ia": "c'est une question int\u00e9ressante car avant que je soit publi\u00e9,pour que tu puisse me faire marcher sur ton PC il faudra avoir ces modules tous et sans \u00e9xeptions:flask (le plus important),datetime,pyinstaller,pyttsx3(pour la voix de l'ia),sympy,sypyEgine et numpy(pour les maths),PACKAGES JSON,mais aussi pygame !et n'oublis pas d'installer visual studio code ou pycharm sur ton PC"
+        },
+        {
+            "user": "help",
+            "ia": "Je peux discuter avec toi, r\u00e9pondre \u00e0 tes questions et bient\u00f4t faire encore plus \ud83d\udd25"
+        },
+        {
+            "user": "temp\u00e9rature",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "cmd",
+            "ia": "l'environnement mondial des pirateurs ouvert,donne le code du serveur pour y acc\u00e9der!ton nom de pirateur est ruph$$//\ud83d\udcachacker"
+        },
+        {
+            "user": "humour",
+            "ia": "Pourquoi les plongeurs plongent-ils toujours en arri\u00e8re ? Parce que sinon ils tombent dans le bateau."
+        },
+        {
+            "user": "tu connais une autre blague",
+            "ia": "Qu'est-ce qu'un informaticien quand il a soif ? Il boit du Java."
+        },
+        {
+            "user": "paris",
+            "ia": "paris est une ville classe situ\u00e9 en france,la belle vie non ? \ud83d\ude0e"
+        },
+        {
+            "user": "hacking",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "code-heure",
+            "ia": "http//#*#@-hackerflask://**//##/local-55@i\u00b6////***///"
+        },
+        {
+            "user": "code-heure",
+            "ia": "local-55@i\u00b6"
+        },
+        {
+            "user": "hacking",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "OUVRE BLOC-NOTES",
+            "ia": "j'ai ouvert l'application demand\u00e9e \ud83d\ude0e"
+        },
+        {
+            "user": "D'acord merci",
+            "ia": "Pas de souci, n'h\u00e9site pas si tu as d'autres questions."
+        },
+        {
+            "user": "bonjour",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "je le sais merci ouvre vlc",
+            "ia": "\u00c0 ton service !"
+        },
+        {
+            "user": "ok ouvre vlc",
+            "ia": "votre application est ouverte\ud83d\udcaa"
+        },
+        {
+            "user": "python",
+            "ia": "super,je vois que tu veux apprendre le python ,alors commen\u00e7ons! le python est un langage de programmation puissant cr\u00e9\u00e9 par Guido van Rossum,ce langage est dynamique et conseill\u00e9 pour les d\u00e9butants car il offre un conffort et des d\u00e9fis aux jeunes apprennants!voici quelques modules avec python: -tkinter, pyttsx3, festapi, pyinstaller le module qui transorme un fichier python en une application exe!si tu es tent\u00e9 par ce langage rend toi sur le site JVLTIC pour aprofondir ce langage et apprend tous les langage que tu veux"
+        },
+        {
+            "user": "et java",
+            "ia": "nouveau lanuage mis aupoint pour accompagner le html pour la r\u00e9alisation des pages web plus sublimes qu'avant(le html est un gros parasyte \ud83d\ude0e)"
+        },
+        {
+            "user": "salut",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "ton cr\u00e9ateur",
+            "ia": "Je suis AGR \ud83e\udd16, une IA cr\u00e9\u00e9e par ATUKUZWE ZOLA Gloire."
+        },
+        {
+            "user": "version",
+            "ia": "je me retrouve actuellement \u00e0 la version 1.0.0! La toute premi\u00e8re version de AGR. Pour plus d'info vas sur le site GR"
+        },
+        {
+            "user": "je m'appelle Rock",
+            "ia": "je ne suis pas \u00e9ton\u00e9 car chez vous sur terre vous \u00eates loins des ia comme moi ,mais toi tu as cette chance de me rancontrer moi la meilleure ia locale du monde !!"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Salut rock \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "je m'appelle gloire",
+            "ia": "je suis navr\u00e9 et d\u00e9sol\u00e9 mais regarde le bon cot\u00e9 des choses ,tu es entrain de causer avec la meilleure assistante locale de la planete,donc remet toi le moral ce n'est pas la fin du monde"
+        },
+        {
+            "user": "merci tout roule ",
+            "ia": "Je suis l\u00e0 pour \u00e7a !"
+        },
+        {
+            "user": "ouvre vlc",
+            "ia": "votre application est ouverte\ud83d\udcaa"
+        },
+        {
+            "user": "cool merci agr",
+            "ia": "De rien ! C'est un plaisir."
+        },
+        {
+            "user": "foot",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "coder",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "ville",
+            "ia": "je connait une ville; une belle ville,je fut cr\u00e9\u00e9 l\u00e0-basje connait paris,goma,londres,abijan et dakar ; veus-tu que je te parle de quelle ville ?\ud83e\udd14"
+        },
+        {
+            "user": "goma",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "paris",
+            "ia": "paris est une ville classe situ\u00e9 en france,la belle vie non ? \ud83d\ude0e"
+        },
+        {
+            "user": "python",
+            "ia": "super,je vois que tu veux apprendre le python ,alors commen\u00e7ons! le python est un langage de programmation puissant cr\u00e9\u00e9 par Guido van Rossum,ce langage est dynamique et conseill\u00e9 pour les d\u00e9butants car il offre un conffort et des d\u00e9fis aux jeunes apprennants!voici quelques modules avec python: -tkinter, pyttsx3, festapi, pyinstaller le module qui transorme un fichier python en une application exe!si tu es tent\u00e9 par ce langage rend toi sur le site JVLTIC pour aprofondir ce langage et apprend tous les langage que tu veux"
+        },
+        {
+            "user": "d'accord merci",
+            "ia": "Je suis l\u00e0 pour \u00e7a !"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "foot",
+            "ia": "Attends \ud83d\ude05 reformule un peu, je capte pas encore"
+        },
+        {
+            "user": "football",
+            "ia": "C\u2019est int\u00e9ressant\u2026 mais pas encore dans ma base \ud83e\udde0"
+        },
+        {
+            "user": "bONJOUR",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "COMME TU PEUX COMMENT VAS TU",
+            "ia": "Je suis au top \ud83d\udcaa pr\u00eat \u00e0 t\u2019aider !"
+        },
+        {
+            "user": "ouvre vlc",
+            "ia": "j'ai ouvert l'application demand\u00e9e \ud83d\ude0e"
+        },
+        {
+            "user": "merci on se reveras plus tard je dois voir si un pot est toujours vivant",
+            "ia": "Pas de souci, n'h\u00e9site pas si tu as d'autres questions."
+        },
+        {
+            "user": "OUVRE CMD",
+            "ia": "votre application est ouverte\ud83d\udcaa"
+        },
+        {
+            "user": "BONJOUR",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "SALUT",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "ok je sais humour",
+            "ia": "je ne suis pas \u00e9ton\u00e9 car chez vous sur terre vous \u00eates loins des ia comme moi ,mais toi tu as cette chance de me rancontrer moi la meilleure ia locale du monde !!"
+        },
+        {
+            "user": "humour",
+            "ia": "C'est l'histoire d'un angle qui va au restaurant. Il commande un angle droit."
+        },
+        {
+            "user": "bonjoue",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "sqlut",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        },
+        {
+            "user": "salut",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "outils",
+            "ia": "Pour l'instant je suis \u00e9quip\u00e9e d'un serveur cr\u00e9\u00e9 par GLOIRE(il est le moteur qui me donne vie), je poss\u00e8de un acc\u00e8s aux infos direct du site Ruphy,une page web unique avec interface de haut niveaux ,des jeux qvec pygame,des scripts por mon style,et j'ai acc\u00e8s aux cinq versions de calculatrices Ruphilators"
+        },
+        {
+            "user": "bonjour",
+            "ia": "Hey gloire\ud83d\udc4b moi c\u2019est AGR !"
+        },
+        {
+            "user": "salut",
+            "ia": "Salut gloire \ud83d\ude04 comment je peux t\u2019aider ?"
+        },
+        {
+            "user": "salut comment tu vas",
+            "ia": "Je suis au top \ud83d\udcaa pr\u00eat \u00e0 t\u2019aider !"
+        },
+        {
+            "user": "OK ouvre vlc (une autre instance)",
+            "ia": "votre application est ouverte\ud83d\udcaa"
+        },
+        {
+            "user": "humour",
+            "ia": "Qu'est-ce qu'un informaticien quand il a soif ? Il boit du Java."
+        },
+        {
+            "user": "ouvre word",
+            "ia": "votre application est ouverte\ud83d\udcaa"
+        },
+        {
+            "user": "ouvre vlc",
+            "ia": "j'ai ouvert l'application demand\u00e9e \ud83d\ude0e"
+        },
+        {
+            "user": "salut",
+            "ia": "Yo  gloire \ud83d\udd25 t\u2019as besoin de quoi ?"
+        },
+        {
+            "user": "de rien merci ce n'\u00e9tait qu'un test",
+            "ia": "Je suis l\u00e0 pour \u00e7a !"
+        },
+        {
+            "user": "\u00e7a vas",
+            "ia": "Franchement \u00e7a va super \ud83d\ude0e et toi ?"
+        },
+        {
+            "user": "calcul 2+3",
+            "ia": "Hmm \ud83e\udd14 j\u2019ai pas encore compris \u00e7a\u2026 mais je vais apprendre !"
+        }
+    ],
+    "preferences": {
+        "nom_user": "gloire",
+        "aime": "wanny"
+    }
+}
